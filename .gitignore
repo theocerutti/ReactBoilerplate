@@ -4,6 +4,7 @@
 .idea
 .vs
 .vscode
+*.iml
 
 # dependencies
 /node_modules
