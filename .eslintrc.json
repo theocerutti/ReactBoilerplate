@@ -3,7 +3,12 @@
     "browser": true,
     "es2021": true
   },
-  "extends": ["plugin:react/recommended", "airbnb-typescript", "prettier"],
+  "extends": [
+    "plugin:react/recommended",
+    "airbnb-base",
+    "airbnb-typescript/base",
+    "prettier"
+  ],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
     "project": ["./tsconfig.json"],
@@ -20,6 +25,7 @@
     "no-unused-vars": "warn",
     "no-param-reassign": "warn",
     "@typescript-eslint/no-use-before-define": "off",
+    "import/extensions": "off",
     "react/jsx-filename-extension": [
       2,
       {
